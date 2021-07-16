@@ -1,0 +1,32 @@
+#userButton {
+  display: flex;
+  border: 1px solid red;
+}
+#userButton ul {
+  width: 100vw;
+}
+#userButton ul li {
+  border: 1px solid red;
+  list-style-type: none;
+  float: right;
+}
+#mainLogo {
+  width: 100%;
+  text-align: center;
+  border: 1px solid red;
+}
+#mainLogo img {
+  vertical-align: middle;
+  width: 25vw;
+  border: 1px solid red;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+#nav img {
+  width: 20px;
+}
