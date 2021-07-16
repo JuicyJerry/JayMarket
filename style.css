@@ -30,3 +30,26 @@
 #nav img {
   width: 20px;
 }
+
+#prSection img {
+  width: 100%;
+  height: 30vh;
+  border: 1px solid red;
+}
+
+#prSection p {
+  text-align: center;
+}
+
+#prSection ul {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  list-style-type: none;
+  border: 1px solid red;
+}
+
+footer section {
+  height: 20vh;
+  border: 1px solid red;
+}
