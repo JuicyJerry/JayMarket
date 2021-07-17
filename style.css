@@ -48,7 +48,6 @@
   list-style-type: none;
   border: 1px solid red;
 }
-
 #signupInfo {
   border: 1px solid red;
   text-align: center;
@@ -165,7 +164,30 @@
 
 #itemDescription p {
   margin: 10rem;
+=======
+#loginInfo {
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+  border: 1px solid red;
+  text-align: center;
 }
+
+#loginFunc {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  border: 1px solid red;
+  /* margin-top: 5rem; */
+  padding: 2rem;
+}
+
+#findInfo ul {
+  list-style-type: none;
+}
+
+#loginAndSignup ul {
+  list-style-type: none;
 
 footer section {
   height: 20vh;

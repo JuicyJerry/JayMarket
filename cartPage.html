@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>JayMarket</title>
+  </head>
+  <body>
+    <header>
+      <div id="userButton">
+        <ul>
+          <li>
+            <input type="button" value="로그인" />
+          </li>
+          <li>
+            <input type="button" value="회원가입" />
+          </li>
+        </ul>
+      </div>
+      <div id="mainLogo">
+        <img src="./img/logo.svg" />
+      </div>
+      <nav id="nav">
+        <img src="./img/menu.svg" />
+        <input type="button" value="전체 카테고리" />
+        <input type="button" value="알뜰 쇼핑" />
+        <input type="search" placeholder="원하시는 검색어를 입력하세요." />
+        <img src="./img/search.svg" />
+        <img src="./img/location.svg" />
+        <img src="./img/cart.svg" />
+      </nav>
+    </header>
+    <section id="cart">
+      <div id="cart_select">
+        <p>장바구니</p>
+        <article>
+          <label id="check">
+            <input type="checkbox" />
+            전체선택(0/0)
+          </label>
+          <div id="empty">
+            <a href="#none" id="btn_delete">선택삭제</a>
+          </div>
+        </article>
+        <article id="inner_empty">
+          <p>장바구니에 담긴 상품이 없습니다</p>
+        </article>
+      </div>
+
+      <div id="cart_result">
+        <div>
+          <dl id="amount">
+            <dt class="tit">상품 금액</dt>
+            <dd class="price">
+              <span class="num">0</span>
+              <span class="won">원</span>
+            </dd>
+          </dl>
+          <dl id="amount_list">
+            <dt class="tit">결제예정금액</dt>
+            <dd class="price">
+              <span class="num">0</span>
+              <span class="won">원</span>
+            </dd>
+          </dl>
+          <div id="btn_submit">
+            <button type="submit" class="btn disabled">
+              상품을 담아주세요
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section>footer</section>
+    </footer>
+  </body>
+</html>
