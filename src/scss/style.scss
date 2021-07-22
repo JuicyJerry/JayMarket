@@ -1,0 +1,369 @@
+@import "_variables";
+@import "_mixins";
+
+#userButton {
+  display: flex;
+  border: $border;
+
+  &:first-child {
+    height: 18px;
+    background: #3a7298;
+  }
+
+  ul {
+    width: 100vw;
+    border: $border;
+
+    li {
+      margin-right: 5px;
+      float: right;
+      list-style-type: none;
+
+      input {
+        @include btn;
+      }
+    }
+  }
+}
+
+#mainLogo {
+  text-align: center;
+  border: $border;
+
+  img {
+    width: 8vw;
+    vertical-align: middle;
+    border: $border;
+  }
+}
+
+#nav ul {
+  display: flex;
+  justify-content: space-between;
+  // border: $border;
+  border: $border;
+  list-style: none;
+  align-items: center;
+
+  li {
+    &:first-child {
+      display: flex;
+      justify-content: space-evenly;
+
+      input {
+        @include btn;
+        width: 20vw;
+        margin-left: 10px;
+        vertical-align: middle;
+        border: $border;
+      }
+    }
+
+    &:nth-child(2) {
+      // background: black;
+      width: 32vw;
+      border: $border;
+    }
+
+    &:last-child {
+      display: flex;
+      justify-content: space-evenly;
+      margin-right: 10px;
+      width: 20vw;
+    }
+  }
+
+  img {
+    // margin-left: 40px;
+    width: 30px;
+    vertical-align: middle;
+  }
+}
+
+#prSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: $border;
+
+  img {
+    width: 60vw;
+    height: 60vh;
+  }
+
+  p {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    font-size: 26px;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60vw;
+    height: 60vh;
+    list-style-type: none;
+    border: $border;
+
+    li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 15vw;
+      height: 40vh;
+      border: $border;
+      font-size: 25px;
+
+      img {
+        border: $border;
+        padding: 20px;
+      }
+    }
+  }
+}
+
+#signupInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: $border;
+  font-size: 18px;
+
+  ul {
+    text-align: center;
+    border: $border;
+    list-style-type: none;
+    margin: 2rem;
+
+    li {
+      display: flex;
+      align-items: center;
+      text-align: left;
+      padding: 1rem;
+
+      p {
+        width: 10rem;
+        margin-right: 5rem;
+      }
+
+      input:not(#idCheck) {
+        width: 15rem;
+        height: 2.5rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+#idCheck {
+  height: 2.5rem;
+}
+
+.line {
+  border: solid 1px black;
+  background: black;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#signupBtn {
+  width: 20vw;
+  height: 5vh;
+  background: #3a7298;
+  color: white;
+  font-size: 15px;
+  margin-top: 0.5rem;
+  margin-bottom: 8rem;
+}
+
+#cart {
+  border: $border;
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    text-align: center;
+  }
+}
+
+#cart_select {
+  border: 2px solid royalblue;
+  width: 70vw;
+}
+
+#check {
+  margin-right: 1rem;
+}
+
+#empty {
+  display: inline-block;
+  border-left: 2px solid black;
+}
+
+#btn_delete {
+  margin-left: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+#inner_empty {
+  border-top: 1px solid black;
+  margin-top: 1rem;
+  height: 30vh;
+}
+
+#cart_result {
+  border: 2px solid greenyellow;
+  margin-top: 50px;
+  width: 30vw;
+}
+
+#amount,
+#amount_list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: $border;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#btn_submit {
+  button {
+    @include btn;
+    // width: 5vw;
+    height: 2vw;
+    border-radius: 5px;
+    font-weight: 500;
+    background: #ddd;
+  }
+  margin-top: 50px;
+  text-align: center;
+  border: $border;
+}
+
+#thickLine {
+  background: gray;
+  height: 2vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+#itemInfo {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  border: $border;
+
+  img {
+    display: flex;
+    justify-content: center;
+    margin-right: 35px;
+    width: 18vw;
+    height: 30vh;
+    border: $border;
+  }
+
+  button {
+    margin-left: 35px;
+    @include btn;
+    width: 20vw;
+    background: #ddd;
+  }
+}
+
+.itemInfoSection {
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+  border: $border;
+}
+
+#itemDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  border: $border;
+
+  img {
+    width: 40vw;
+  }
+
+  p {
+    font-size: 32px;
+    margin: 30rem;
+  }
+}
+
+#loginSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15vh;
+  text-align: center;
+  border: 2px solid yellowgreen;
+  align-items: center;
+}
+
+#loginInfos {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  input {
+    height: 5vh;
+  }
+  border: $border;
+}
+
+#findInfo {
+  width: 15vw;
+  text-align: right;
+
+  input {
+    font-size: 11px;
+    background-color: white;
+    border: 0;
+  }
+
+  border: $border;
+}
+
+#loginAndSignupBtn {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    font-size: 15px;
+    background-color: white;
+    height: 5vh;
+    font-weight: bold;
+
+    &:first-child {
+      background: #3a7298;
+      border: 0;
+    }
+    &:last-child {
+      border: 0;
+    }
+  }
+
+  border: $border;
+}
+
+footer section {
+  height: 20vh;
+  border: $border;
+  background: #3a7298;
+  // background: black;
+  margin-top: 15vh;
+}

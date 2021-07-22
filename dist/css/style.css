@@ -1,0 +1,336 @@
+#userButton {
+  display: flex;
+  border: 1px solid red;
+}
+#userButton:first-child {
+  height: 18px;
+  background: #3a7298;
+}
+#userButton ul {
+  width: 100vw;
+  border: 1px solid red;
+}
+#userButton ul li {
+  margin-right: 5px;
+  float: right;
+  list-style-type: none;
+}
+#userButton ul li input {
+  border: 0;
+  background: none;
+}
+
+#mainLogo {
+  text-align: center;
+  border: 1px solid red;
+}
+#mainLogo img {
+  width: 8vw;
+  vertical-align: middle;
+  border: 1px solid red;
+}
+
+#nav ul {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  list-style: none;
+  align-items: center;
+}
+#nav ul li:first-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+#nav ul li:first-child input {
+  border: 0;
+  background: none;
+  width: 20vw;
+  margin-left: 10px;
+  vertical-align: middle;
+  border: 1px solid red;
+}
+#nav ul li:nth-child(2) {
+  width: 32vw;
+  border: 1px solid red;
+}
+#nav ul li:last-child {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 10px;
+  width: 20vw;
+}
+#nav ul img {
+  width: 30px;
+  vertical-align: middle;
+}
+
+#prSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+#prSection img {
+  width: 60vw;
+  height: 60vh;
+}
+#prSection p {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  text-align: center;
+  font-size: 26px;
+}
+#prSection ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60vw;
+  height: 60vh;
+  list-style-type: none;
+  border: 1px solid red;
+}
+#prSection ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 40vh;
+  border: 1px solid red;
+  font-size: 25px;
+}
+#prSection ul li img {
+  border: 1px solid red;
+  padding: 20px;
+}
+
+#signupInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+  font-size: 18px;
+}
+#signupInfo ul {
+  text-align: center;
+  border: 1px solid red;
+  list-style-type: none;
+  margin: 2rem;
+}
+#signupInfo ul li {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 1rem;
+}
+#signupInfo ul li p {
+  width: 10rem;
+  margin-right: 5rem;
+}
+#signupInfo ul li input:not(#idCheck) {
+  width: 15rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+
+#idCheck {
+  height: 2.5rem;
+}
+
+.line {
+  border: solid 1px black;
+  background: black;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#signupBtn {
+  width: 20vw;
+  height: 5vh;
+  background: #3a7298;
+  color: white;
+  font-size: 15px;
+  margin-top: 0.5rem;
+  margin-bottom: 8rem;
+}
+
+#cart {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+#cart p {
+  text-align: center;
+}
+
+#cart_select {
+  border: 2px solid royalblue;
+  width: 70vw;
+}
+
+#check {
+  margin-right: 1rem;
+}
+
+#empty {
+  display: inline-block;
+  border-left: 2px solid black;
+}
+
+#btn_delete {
+  margin-left: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+#inner_empty {
+  border-top: 1px solid black;
+  margin-top: 1rem;
+  height: 30vh;
+}
+
+#cart_result {
+  border: 2px solid greenyellow;
+  margin-top: 50px;
+  width: 30vw;
+}
+
+#amount,
+#amount_list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid red;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#btn_submit {
+  margin-top: 50px;
+  text-align: center;
+  border: 1px solid red;
+}
+#btn_submit button {
+  border: 0;
+  background: none;
+  height: 2vw;
+  border-radius: 5px;
+  font-weight: 500;
+  background: #ddd;
+}
+
+#thickLine {
+  background: gray;
+  height: 2vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+#itemInfo {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+#itemInfo img {
+  display: flex;
+  justify-content: center;
+  margin-right: 35px;
+  width: 18vw;
+  height: 30vh;
+  border: 1px solid red;
+}
+#itemInfo button {
+  margin-left: 35px;
+  border: 0;
+  background: none;
+  width: 20vw;
+  background: #ddd;
+}
+
+.itemInfoSection {
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+  border: 1px solid red;
+}
+
+#itemDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  border: 1px solid red;
+}
+#itemDescription img {
+  width: 40vw;
+}
+#itemDescription p {
+  font-size: 32px;
+  margin: 30rem;
+}
+
+#loginSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15vh;
+  text-align: center;
+  border: 2px solid yellowgreen;
+  align-items: center;
+}
+
+#loginInfos {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  border: 1px solid red;
+}
+#loginInfos input {
+  height: 5vh;
+}
+
+#findInfo {
+  width: 15vw;
+  text-align: right;
+  border: 1px solid red;
+}
+#findInfo input {
+  font-size: 11px;
+  background-color: white;
+  border: 0;
+}
+
+#loginAndSignupBtn {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+#loginAndSignupBtn input {
+  font-size: 15px;
+  background-color: white;
+  height: 5vh;
+  font-weight: bold;
+}
+#loginAndSignupBtn input:first-child {
+  background: #3a7298;
+  border: 0;
+}
+#loginAndSignupBtn input:last-child {
+  border: 0;
+}
+
+footer section {
+  height: 20vh;
+  border: 1px solid red;
+  background: #3a7298;
+  margin-top: 15vh;
+}
+
+/*# sourceMappingURL=style.css.map */

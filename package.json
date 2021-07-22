@@ -1,0 +1,25 @@
+{
+  "name": "jay-market",
+  "version": "1.0.0",
+  "description": "JayMarket Client입니다.",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.35.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:sass": "sass src/scss/style.scss:dist/css/style.css",
+    "watch": "sass --watch src/scss/style.scss:dist/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuicyJerry/JayMarket-client.git"
+  },
+  "author": "Jay Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuicyJerry/JayMarket-client/issues"
+  },
+  "homepage": "https://github.com/JuicyJerry/JayMarket-client#readme"
+}

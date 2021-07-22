@@ -4,34 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./dist/css/style.css" />
     <title>JayMarket</title>
   </head>
   <body>
     <header>
       <div id="userButton">
         <ul>
+          <li></li>
           <li>
             <input type="button" value="로그인" />
           </li>
+          <li>|</li>
           <li>
             <input type="button" value="회원가입" />
           </li>
         </ul>
       </div>
       <div id="mainLogo">
-        <img src="./img/logo.svg" />
+        <img src="./img/logo.png" />
       </div>
       <nav id="nav">
-        <img src="./img/menu.svg" />
-        <input type="button" value="전체 카테고리" />
-        <input type="button" value="알뜰 쇼핑" />
-        <input type="search" placeholder="원하시는 검색어를 입력하세요." />
-        <img src="./img/search.svg" />
-        <img src="./img/location.svg" />
-        <img src="./img/cart.svg" />
+        <ul>
+          <li>
+            <img src="./img/menu.svg" />
+            <input type="button" value="전체 카테고리" />
+            <input type="button" value="알뜰 쇼핑" />
+          </li>
+          <li>
+            <input type="text" placeholder="원하시는 검색어를 입력하세요." />
+          </li>
+          <li>
+            <img src="./img/search.svg" />
+            <img src="./img/location.svg" />
+            <img src="./img/cart.svg" />
+          </li>
+        </ul>
       </nav>
     </header>
+
     <section>
       <article id="signupInfo">
         <p>회원가입</p>
@@ -39,16 +50,16 @@
         <article>
           <ul>
             <li>
-              아이디
+              <p>아이디</p>
               <input type="search" placeholder="아이디를 입력해주세요" />
-              <input type="submit" value="중복확인" />
+              <input type="submit" value="중복확인" id="idCheck" />
             </li>
             <li>
-              비밀번호
+              <p>비밀번호</p>
               <input type="search" placeholder="비밀번호를 입력해주세요" />
             </li>
             <li>
-              비밀번호 확인
+              <p>비밀번호 확인</p>
               <input
                 type="search"
                 placeholder="비밀번호를 한번 더 입력해주세요"
@@ -60,6 +71,7 @@
         <button id="signupBtn">가입하기</button>
       </article>
     </section>
+
     <footer>
       <section>footer</section>
     </footer>
