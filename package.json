@@ -4,13 +4,22 @@
   "description": "JayMarket Client입니다.",
   "main": "index.js",
   "dependencies": {
+    "next": "^9.5.5",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "sass": "^1.35.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "file-loader": "^6.2.0"
+  },
   "scripts": {
     "build:sass": "sass src/scss/style.scss:dist/css/style.css",
     "watch": "sass --watch src/scss/style.scss:dist/css/style.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
