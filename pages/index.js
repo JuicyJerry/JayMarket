@@ -1,14 +1,14 @@
 import React from "react";
-// import AppLayout from "./components/AppLayout";
-// import Image from "next/image";
-import logo from "../public/img/logo.png";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
 
 const Home = () => {
   return (
-    <>
-      <h1>Hello, JayMarket!</h1>;
-      <img src={logo} alt="logo" />
-    </>
+    <Header>
+      <Main></Main>
+      <Footer></Footer>
+    </Header>
   );
 };
 

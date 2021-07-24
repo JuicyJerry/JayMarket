@@ -1,6 +1,8 @@
 {
   "/_app": "pages/_app.js",
-  "/components/AppLayout": "pages/components/AppLayout.js",
+  "/components/Footer": "pages/components/Footer.js",
+  "/components/Header": "pages/components/Header.js",
+  "/components/Main": "pages/components/Main.js",
   "/": "pages/index.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js"
