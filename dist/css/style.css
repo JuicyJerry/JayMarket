@@ -15,7 +15,9 @@
   float: right;
   list-style-type: none;
 }
-#userButton ul li input {
+#userButton ul li a {
+  text-decoration: none;
+  color: black;
   border: 0;
   background: none;
 }
@@ -101,9 +103,12 @@
   border: 1px solid red;
   font-size: 25px;
 }
+
 #prSection ul li img {
-  border: 1px solid red;
+  border: 1px solid rgb(197, 18, 137);
   padding: 20px;
+  width: 100px;
+  height: 100px;
 }
 
 #signupInfo {

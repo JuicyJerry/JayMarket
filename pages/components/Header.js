@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Link from "next/link";
 import logo from "../../public/img/logo.png";
 import search from "../../public/img/search.svg";
 import menu from "../../public/img/menu.svg";
@@ -13,16 +14,24 @@ const Header = () => {
         <ul>
           <li></li>
           <li>
-            <input type="button" value="로그인" />
+            <Link href="/loginPage">
+              <a>로그인</a>
+            </Link>
           </li>
           <li>|</li>
           <li>
-            <input type="button" value="회원가입" />
+            <Link href="/signupPage">
+              <a>화원가입</a>
+            </Link>
           </li>
         </ul>
       </div>
       <div id="mainLogo">
-        <img src={logo} alt="main page logo" />
+        <Link href="/">
+          <a>
+            <img src={logo} alt="main page logo" />
+          </a>
+        </Link>
       </div>
       <nav id="nav">
         <ul>
@@ -37,7 +46,9 @@ const Header = () => {
           <li>
             <img src={search} alt="search" />
             <img src={location} alt="location" />
-            <img src={cart} alt="cart" />
+            <Link href="/cartPage">
+              <img src={cart} alt="cart" />
+            </Link>
           </li>
         </ul>
       </nav>

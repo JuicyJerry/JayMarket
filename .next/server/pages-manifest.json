@@ -1,9 +1,18 @@
 {
   "/_app": "pages/_app.js",
-  "/components/Footer": "pages/components/Footer.js",
-  "/components/Header": "pages/components/Header.js",
-  "/components/Main": "pages/components/Main.js",
-  "/": "pages/index.js",
+  "/cartPage": "pages/cartPage.html",
+  "/components/Cart": "pages/components/Cart.html",
+  "/components/Footer": "pages/components/Footer.html",
+  "/components/Header": "pages/components/Header.html",
+  "/components/ItemInfo": "pages/components/ItemInfo.html",
+  "/components/Login": "pages/components/Login.html",
+  "/components/Main": "pages/components/Main.html",
+  "/components/Signup": "pages/components/Signup.html",
+  "/": "pages/index.html",
+  "/itemInfoPage": "pages/itemInfoPage.html",
+  "/loginPage": "pages/loginPage.html",
+  "/signupPage": "pages/signupPage.html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }

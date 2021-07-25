@@ -5,10 +5,11 @@ import Main from "./components/Main";
 
 const Home = () => {
   return (
-    <Header>
-      <Main></Main>
-      <Footer></Footer>
-    </Header>
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
   );
 };
 
