@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[10],{Qetd:function(n,s,o){"use strict";var t=Object.assign.bind(Object);n.exports=t,n.exports.default=n.exports},s9YE:function(n,s,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/components/Main",function(){return o("+sbi")}])}},[["s9YE",0,1,3]]]);
