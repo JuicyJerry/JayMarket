@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import doughnuts from "../../public/img/doughnuts.jpg";
 import tomatoes from "../../public/img/tomatoes.jpg";
-import styled from "styled-components";
 import Link from "next/link";
 
 // const ItemList = styled.img.attrs({
